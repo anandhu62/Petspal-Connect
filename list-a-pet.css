@@ -1,0 +1,192 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background-color: #ffffff;
+  padding: 20px;
+  
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.photo-container {
+  background-color:rgb(231, 214, 247); /* Set the background color to light grey */
+  padding: 20px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1098px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Varela Round', sans-serif;
+}
+
+.photo-container h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.photo-container p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.upload-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 15px; 
+}
+
+input[type="file"] {
+  display: none; 
+}
+
+.upload-label {
+  display: block;
+  width: 100%; /* Set the width to 100% for grid items */
+  height: 385px; /* Set the height */
+  border: 2px dashed #555; /* Dashed border */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+  line-height: 385px; /* Center text vertically */
+  color: #555; /* Text color */
+  font-size: 1em; /* Font size */
+  background-color: #fff; /* Background color */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.upload-label:hover {
+  background-color: #eaeaea; /* Change background on hover */
+}
+
+.characteristics-container {
+ 
+  background-color:rgb(231, 214, 247);  /* Light background color */
+  
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  
+}
+
+.characteristics-container h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.characteristics-container label {
+  display: block;
+  margin-top: 15px;
+  font-size: 1em;
+  color: #333;
+  
+}
+
+.characteristics-container input[type="text"],
+.characteristics-container input[type="number"],
+.characteristics-container select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding */
+  margin-top: 5px; /* Spacing */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; 
+ /* Rounded corners */
+}
+
+.description-container{
+  border-radius: 20px;
+}
+
+
+
+
+
+.breed-guidance {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px; /* Spacing above guidance */
+}
+
+.key-facts-container {
+  background-color:rgb(231, 214, 247);  /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 20px;
+ 
+  
+}
+
+.key-facts-container h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.key-fact {
+  margin-top: 15px; /* Spacing above each key fact */
+}
+
+.key-fact label {
+  display:inline; /* Block display for label */
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 5px; /* Space between label and radio group */
+}
+
+.radio-group {
+  
+ 
+  display:flex; /* Use Flexbox to align items */
+  gap: 20px; /* Space between radio buttons */
+}
+
+.radio-group label {
+  display: flex; /* Make labels flex containers */
+  align-items: center; /* Center align items */
+}
+
+.submit-button {
+  background-color:blueviolet; /* Green background */
+  color: white; /* White text */
+  padding: 20px 55px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  margin-top: 20px; /* Space above button */
+ 
+}
+.buttoncontainer {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Space above button container */
+}
+
+
+.submit-button:hover {
+  background-color: #000000; /* Darker green on hover */
+  color: rgb(255, 255, 255);
+}
+
